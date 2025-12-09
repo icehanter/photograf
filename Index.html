@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Анна Петрова | Фотограф</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Шапка (Header) -->
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <!-- Логотип -->
+                <div class="logo">Анна Петрова | Фотограф</div>
+                
+                <!-- Навигация для десктопа -->
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="#home">Главная</a></li>
+                        <li><a href="#portfolio">Портфолио</a></li>
+                        <li><a href="#services">Услуги</a></li>
+                        <li><a href="#contact">Контакты</a></li>
+                    </ul>
+                </nav>
+                
+                <!-- Гамбургер-меню -->
+                <button class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+            
+            <!-- Мобильное меню -->
+            <nav class="mobile-nav" id="mobileNav">
+                <ul class="mobile-nav-list">
+                    <li><a href="#home">Главная</a></li>
+                    <li><a href="#portfolio">Портфолио</a></li>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Приветственный блок (Hero Section) -->
+        <section class="hero" id="home">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Профессиональная фотосъёмка</h1>
+                    <p class="hero-text">Ловлю моменты, создаю воспоминания</p>
+                    <a href="#contact" class="btn">Связаться со мной</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Раздел "Портфолио" -->
+        <section class="portfolio" id="portfolio">
+            <div class="container">
+                <h2 class="section-title">Мои работы</h2>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item">
+                        <img src="fotho\svadebnaya semka.jpg" alt="Свадебная съёмка" class="portfolio-img">
+                        <p class="portfolio-caption">Свадебная съёмка</p>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="fotho\portret.jpg" alt="Портрет" class="portfolio-img">
+                        <p class="portfolio-caption">Портрет</p>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="fotho\peizah.jpg" alt="Пейзаж" class="portfolio-img">
+                        <p class="portfolio-caption">Пейзаж</p>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="fotho\svadba.jpg" alt="Свадьба" class="portfolio-img">
+                        <p class="portfolio-caption">Свадьба</p>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="fotho\semeika.jpg" alt="Семейная фотосессия" class="portfolio-img">
+                        <p class="portfolio-caption">Семейная</p>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="fotho\detskaya.jpg" alt="Детская фотосессия" class="portfolio-img">
+                        <p class="portfolio-caption">Детская</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Раздел "Услуги" -->
+        <section class="services" id="services">
+            <div class="container">
+                <h2 class="section-title">Услуги и цены</h2>
+                <div class="services-grid">
+                    <article class="service-card">
+                        <div class="service-icon">💍</div>
+                        <h3 class="service-title">Свадебная съёмка</h3>
+                        <p class="service-description">Полный день съёмки, обработка всех фотографий, индивидуальный фотоальбом.</p>
+                        <div class="service-price">от 25 000 ₽</div>
+                    </article>
+                    
+                    <article class="service-card">
+                        <div class="service-icon">👤</div>
+                        <h3 class="service-title">Портретная съёмка</h3>
+                        <p class="service-description">Индивидуальная или групповая портретная съёмка в студии или на природе.</p>
+                        <div class="service-price">от 8 000 ₽</div>
+                    </article>
+                    
+                    <article class="service-card">
+                        <div class="service-icon">👨‍👩‍👧‍👦</div>
+                        <h3 class="service-title">Семейная фотосессия</h3>
+                        <p class="service-description">Тёплая семейная фотосессия на природе или в студии. Запечатлею ваши эмоции.</p>
+                        <div class="service-price">от 12 000 ₽</div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Раздел "Контакты" -->
+        <section class="contact" id="contact">
+            <div class="container">
+                <h2 class="section-title">Связаться со мной</h2>
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <h3 class="contact-subtitle">Контактная информация</h3>
+                        <ul class="contact-list">
+                            <li><i class="fas fa-phone"></i> Телефон: +7 (999) 123-45-67</li>
+                            <li><i class="fas fa-envelope"></i> Email: photo@example.com</li>
+                            <li><i class="fab fa-telegram"></i> Telegram: @photo_anna</li>
+                            <li><i class="fas fa-map-marker-alt"></i> Адрес: г. Москва, ул. Творческая, д. 10</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="contact-form">
+                        <h3 class="contact-subtitle">Написать сообщение</h3>
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" placeholder="Имя" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" placeholder="Email" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" name="message" placeholder="Сообщение" rows="4" required></textarea>
+                            </div>
+                            <button type="submit" class="btn">Отправить</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Подвал (Footer) -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="copyright">
+                    © 2025 Анна Петрова. Все права защищены.
+                </div>
+                
+                <div class="footer-social">
+                    <a href="https://vk.com/" class="social-link"><i class="fab fa-vk"></i></a>
+                    <a href="https://web.telegram.org/a/" class="social-link"><i class="fab fa-telegram"></i></a>
+                </div>
+                
+                <a href="#home" class="to-top">
+                    <i class="fas fa-arrow-up"></i> Наверх
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
